@@ -1,0 +1,54 @@
+.homePageContainer {
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+.homePageContainer h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.homePageContainer p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.homePageContainer ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.homePageContainer ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.linkButton {
+  background-color: #F04337;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.linkButton:hover {
+  background-color: #ff6347;
+}
+
+.linkButton:focus {
+  outline: none;
+}

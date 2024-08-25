@@ -1,0 +1,80 @@
+.authForm {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #F04337;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #D73B31;
+}
+
+.authForm label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.authForm input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #F04337;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.authForm button {
+  width: 100%;
+  background-color: #D73B31; /* Slightly darker than #F04337 */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.authForm button:hover {
+  background-color: #bf3329; /* Even darker on hover */
+}
+
+.authForm p {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.authForm .linkContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.authForm .linkContainer a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.authForm .linkContainer a:hover {
+  text-decoration: underline;
+}
+
+.authForm .error {
+  color: red;
+  background-color: #ffe5e5;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}

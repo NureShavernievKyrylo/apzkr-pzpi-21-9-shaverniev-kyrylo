@@ -1,0 +1,60 @@
+.dietManagementContainer {
+    margin-top: 20px;
+  }
+  
+  .dietManagementContainer h2 {
+    font-size: 24px;
+    color: #D73B31;
+  }
+  
+  .dietManagementContainer form {
+    margin-top: 10px;
+  }
+  
+  .dietManagementContainer label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .dietManagementContainer select,
+  .dietManagementContainer input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #D73B31;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .dietManagementContainer button {
+    background-color: #D73B31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .dietManagementContainer button:hover {
+    background-color: #bf3329;
+  }
+  
+  .dietManagementContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .dietManagementContainer ul li {
+    background-color: #F9F9F9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }

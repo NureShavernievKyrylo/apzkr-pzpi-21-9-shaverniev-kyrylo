@@ -1,0 +1,59 @@
+.detailContainer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detailContainer h1 {
+    font-size: 32px;
+    color: #F04337;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .detailContainer p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .detailContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .detailContainer ul li {
+    background-color: #F9F9F9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .detailContainer button {
+    background-color: #D73B31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .detailContainer button:hover {
+    background-color: #bf3329;
+  }
+  
+  .deleteButton {
+    background-color: #D73B31;
+  }
+  
+  .deleteButton:hover {
+    background-color: #bf3329;
+  }

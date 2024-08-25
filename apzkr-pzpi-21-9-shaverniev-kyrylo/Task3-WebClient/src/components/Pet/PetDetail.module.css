@@ -1,0 +1,73 @@
+.petDetailContainer {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.petDetailContainer h1 {
+  font-size: 32px;
+  color: #F04337;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.petDetailContainer p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.petDetailContainer h2 {
+  font-size: 24px;
+  color: #D73B31;
+  margin-top: 30px;
+}
+
+.petDetailContainer button {
+  background-color: #D73B31;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.petDetailContainer button:hover {
+  background-color: #bf3329;
+}
+
+.chartContainer {
+  margin-top: 20px;
+}
+
+.noDataMessage {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chartContainer {
+  margin-top: 20px;
+}
+
+.actionButton {
+  background-color: #D73B31;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.actionButton:hover {
+  background-color: #bf3329;
+}

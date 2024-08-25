@@ -1,0 +1,65 @@
+.exerciseManagementContainer {
+    margin-top: 20px;
+  }
+  
+  .exerciseManagementContainer h2 {
+    font-size: 24px;
+    color: #D73B31;
+  }
+
+  .exerciseManagementContainer h2 {
+    font-size: 24px;
+    color: #D73B31;
+  }
+  
+  .exerciseManagementContainer form {
+    margin-top: 10px;
+  }
+  
+  .exerciseManagementContainer label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .exerciseManagementContainer select,
+  .exerciseManagementContainer input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #D73B31;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .exerciseManagementContainer button {
+    background-color: #D73B31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .exerciseManagementContainer button:hover {
+    background-color: #bf3329;
+  }
+  
+  .exerciseManagementContainer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .exerciseManagementContainer ul li {
+    background-color: #F9F9F9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }

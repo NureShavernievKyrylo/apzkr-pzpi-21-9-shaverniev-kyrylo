@@ -1,0 +1,83 @@
+.listContainer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .listContainer h1 {
+    font-size: 32px;
+    color: #F04337;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .listContainer button {
+    background-color: #D73B31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listContainer button:hover {
+    background-color: #bf3329;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    background-color: #F9F9F9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listItem:hover {
+    background-color: #F1F1F1;
+  }
+  
+  .listItem a,
+  .listItem button {
+    text-decoration: none;
+    color: #F04337;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .listItem a:hover,
+  .listItem button:hover {
+    text-decoration: underline;
+  }
+  
+  .createButton {
+    display: block;
+    margin: 0 auto;
+    background-color: #D73B31;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .createButton:hover {
+    background-color: #bf3329;
+  }
